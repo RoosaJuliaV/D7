@@ -5,7 +5,7 @@
 <h1 id="id01" style="text-align:center">My Smartphone Store</h1>
 <table>
 <caption>
-<h2 style="border:blue; border-width:1px; border-radius:10px; border-style:solid;">Our Favourite Products</h2>
+<h2 style="border:black; border-width:1px; border-radius:10px; border-style:solid;">Our Favourite Products</h2>
 </caption>
 <style>
       table,
@@ -14,6 +14,9 @@
         padding: 10px;
         border: 1px solid black;
         border-collapse: collapse;
+      }
+      body {
+          background-color: #7fa3db;
       }
     </style>
   <tbody>
@@ -70,22 +73,20 @@
     </div>
 <footer>
   <p> © My Smartphone Store<br>
-  <a href="mailto:mysmartphone@shop.com">mysmartphone@shop.com</a></p>
+  <a id="myFooter" href= "mailto:mysmartphone@shop.com">mysmartphone@shop.com</a></p>
 </footer>
 <style>
 footer {
   text-align: center;
   padding: 3px;
-  background-color: white;
   color: black;
 }
 </style>
-
-<script>
-const element = document.getElementById("id01");
-element.innerHTML = "The Best Smartphones";
+  <script>
+  const element = document.getElementById("id01");
+  element.innerHTML = "The Best Smartphones"; 
+  document.body.style.backgroundColor = "white";
 </script>
-
 </body>
 </html>
 
